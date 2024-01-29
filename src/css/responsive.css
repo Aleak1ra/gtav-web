@@ -72,7 +72,14 @@
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 393px) {
+
+    .header .menu {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+
   .header .header__nav li a {
     padding: 0px;
   }
