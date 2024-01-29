@@ -1,0 +1,80 @@
+@media (max-width: 1024px){
+    .header{
+        flex-direction: column;
+        justify-content: center;   
+        gap: 10px;    
+        padding: 10px; 
+    }
+
+    .header .header__logo img{
+        margin-top: 8px;
+        
+    }
+
+    .header .header__nav li a{
+        padding: 5px;
+       
+    }
+
+    .home .home__content{
+        padding: 30px;
+    }
+
+    .home .home__content img{
+        max-width: 100px;
+    }
+
+    .home .home__content .home__content__title{
+        font-size: 2.4rem
+    }
+
+    .home .home__content .home__content__description{
+        font-size: 1.0rem
+    }
+
+    .home .home__content__button{
+        margin-top: 8px;
+        width: 100%;
+    }
+
+    .buy-now .card{
+        width: 70%;
+    }
+
+    .buy-now .informations .informations__list__platforms {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .buy-now .card .card-select-platform{
+        
+        width: 160%;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .buy-now{
+        padding: 30px;
+    }
+
+    .buy-now .card{
+        width: 100%;
+        padding: 80px 20px;
+    }
+
+    .buy-now .card .card-select-platform{
+        width: 90%;
+    }
+
+    .buy-now .card .card-select-platform .card-select-platform__title{
+        font-size: 1.5rem;
+    }
+
+    .buy-now .card .card-select-platform .card-select-platform__buttons{
+       padding: 15px;
+    }
+}
+
+
