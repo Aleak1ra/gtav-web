@@ -36,20 +36,20 @@
   }
 
   .buy-now .card {
-    width: 70%;
+    width: 100%;
   }
 
   .buy-now .informations .informations__list__platforms {
-    flex-direction: column;
+    flex-direction: row;
     gap: 18px;
   }
 
   .buy-now .card .card-select-platform {
-    width: 160%;
+    width: 100%;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 689px) {
   .buy-now {
     padding: 30px;
   }
@@ -72,15 +72,52 @@
   }
 }
 
-@media (max-width: 393px) {
-
-    .header .menu {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-      }
+@media (max-width: 425px) {
+  .header .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
 
   .header .header__nav li a {
+    padding: 0px;
+  }
+
+  .buy-now .card {
+    width: 100%;
+  }
+
+  .buy-now .card img {
+    width: 70%;
+  }
+
+  .buy-now .card .informations ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+  .buy-now .card .informations ul li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0px;
+}
+
+
+
+  .buy-now .card .card-select-platform {
+    width: 100%;
+  }
+
+  .buy-now .card .card-select-platform li a {
+    font-size: 12px;
     padding: 0px;
   }
 }
