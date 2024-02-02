@@ -99,7 +99,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
+  }
 
   .buy-now .card .informations ul li {
     display: flex;
@@ -108,11 +108,14 @@
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 0px;
-}
-
-
+  }
 
   .buy-now .card .card-select-platform {
+    width: 100%;
+    height: 70px;
+  }
+  .buy-now .card .card-select-platform h2 {
+    font-size: 20px;
     width: 100%;
   }
 
