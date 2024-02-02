@@ -214,6 +214,7 @@ body, html {
   text-transform: uppercase;
   letter-spacing: 2px;
   width: 400px;
+  cursor: pointer;
   
 }
 
